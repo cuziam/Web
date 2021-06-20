@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Learning Jquery</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="Welcome"></div>
+    <div class="Welcome"></div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>"
+    <script>
+      $('.welcome').html('hello world! coding everybody!').css('background-color','yellow');
+    </script> 
+  </body>
+</html>

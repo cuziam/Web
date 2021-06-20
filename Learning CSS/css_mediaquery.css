@@ -1,0 +1,14 @@
+@media(max-width:800px)
+{
+  #grid{
+    display:block;
+  }
+  #grid .list{
+    border-left:none;
+    border-right:none;
+  }
+  #grid .article{
+    border-right:none;
+    border-left:none;
+  }
+}

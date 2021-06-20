@@ -1,0 +1,36 @@
+a {
+  color:red;
+  text-decoration:none;
+}
+
+.main_title{
+  color:black;
+  text-decoration:underline;
+}
+h1 {
+  display:block;
+  font-size:60px;
+  text-align:center;
+  padding:100px;
+  border:5px solid black;
+  margin:0px;
+}
+#grid{
+  display:grid;
+  grid-template-columns:150px 1fr;
+}
+
+#grid ol{
+  display:block;
+  text-align:left;
+  padding:30px;
+  border-left:5px solid black;
+  border-right:5px solid black;
+  margin:0px;
+}
+#grid #article{
+  padding:30px;
+  border-left:5px solid black;
+  border-right:5px solid black;
+  margin:0px;
+}
